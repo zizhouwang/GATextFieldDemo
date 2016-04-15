@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A3DA4DF1CC1A369001BB024 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3DA4DE1CC1A369001BB024 /* main.m */; };
+		3A3DA4E21CC1A369001BB024 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3DA4E11CC1A369001BB024 /* AppDelegate.m */; };
+		3A3DA4E51CC1A369001BB024 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3DA4E41CC1A369001BB024 /* ViewController.m */; };
+		3A3DA4E81CC1A369001BB024 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A3DA4E61CC1A369001BB024 /* Main.storyboard */; };
+		3A3DA4EB1CC1A369001BB024 /* GATextFieldDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A3DA4E91CC1A369001BB024 /* GATextFieldDemo.xcdatamodeld */; };
+		3A3DA4ED1CC1A369001BB024 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A3DA4EC1CC1A369001BB024 /* Assets.xcassets */; };
+		3A3DA4F01CC1A369001BB024 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A3DA4EE1CC1A369001BB024 /* LaunchScreen.storyboard */; };
+		3A3DA4FB1CC1A36A001BB024 /* GATextFieldDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3DA4FA1CC1A36A001BB024 /* GATextFieldDemoTests.m */; };
+		3A3DA5061CC1A36A001BB024 /* GATextFieldDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3DA5051CC1A36A001BB024 /* GATextFieldDemoUITests.m */; };
+		3A3DA5171CC1A3A7001BB024 /* barcolor_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A3DA5141CC1A3A7001BB024 /* barcolor_image.png */; };
+		3A3DA5181CC1A3A7001BB024 /* white_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A3DA5151CC1A3A7001BB024 /* white_image.png */; };
+		3A3DA5191CC1A3A7001BB024 /* deleteImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A3DA5161CC1A3A7001BB024 /* deleteImage.png */; };
+		3A3DA51B1CC1A3FB001BB024 /* Citydbol.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A3DA51A1CC1A3FB001BB024 /* Citydbol.ttf */; };
+		3A3DA51E1CC1A407001BB024 /* GATextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3DA51D1CC1A407001BB024 /* GATextField.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A3DA4F71CC1A36A001BB024 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A3DA4D21CC1A369001BB024 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A3DA4D91CC1A369001BB024;
+			remoteInfo = GATextFieldDemo;
+		};
+		3A3DA5021CC1A36A001BB024 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A3DA4D21CC1A369001BB024 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A3DA4D91CC1A369001BB024;
+			remoteInfo = GATextFieldDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A3DA4DA1CC1A369001BB024 /* GATextFieldDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GATextFieldDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A3DA4DE1CC1A369001BB024 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A3DA4E01CC1A369001BB024 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3A3DA4E11CC1A369001BB024 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3A3DA4E31CC1A369001BB024 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3A3DA4E41CC1A369001BB024 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3A3DA4E71CC1A369001BB024 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A3DA4EA1CC1A369001BB024 /* GATextFieldDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GATextFieldDemo.xcdatamodel; sourceTree = "<group>"; };
+		3A3DA4EC1CC1A369001BB024 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A3DA4EF1CC1A369001BB024 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A3DA4F11CC1A369001BB024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A3DA4F61CC1A36A001BB024 /* GATextFieldDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GATextFieldDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A3DA4FA1CC1A36A001BB024 /* GATextFieldDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GATextFieldDemoTests.m; sourceTree = "<group>"; };
+		3A3DA4FC1CC1A36A001BB024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A3DA5011CC1A36A001BB024 /* GATextFieldDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GATextFieldDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A3DA5051CC1A36A001BB024 /* GATextFieldDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GATextFieldDemoUITests.m; sourceTree = "<group>"; };
+		3A3DA5071CC1A36A001BB024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A3DA5141CC1A3A7001BB024 /* barcolor_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barcolor_image.png; sourceTree = "<group>"; };
+		3A3DA5151CC1A3A7001BB024 /* white_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white_image.png; sourceTree = "<group>"; };
+		3A3DA5161CC1A3A7001BB024 /* deleteImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deleteImage.png; sourceTree = "<group>"; };
+		3A3DA51A1CC1A3FB001BB024 /* Citydbol.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Citydbol.ttf; sourceTree = "<group>"; };
+		3A3DA51C1CC1A407001BB024 /* GATextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GATextField.h; sourceTree = "<group>"; };
+		3A3DA51D1CC1A407001BB024 /* GATextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GATextField.m; sourceTree = "<group>"; };
+		3A3DA51F1CC1A478001BB024 /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A3DA4D71CC1A369001BB024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A3DA4F31CC1A36A001BB024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A3DA4FE1CC1A36A001BB024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A3DA4D11CC1A369001BB024 = {
+			isa = PBXGroup;
+			children = (
+				3A3DA4DC1CC1A369001BB024 /* GATextFieldDemo */,
+				3A3DA4F91CC1A36A001BB024 /* GATextFieldDemoTests */,
+				3A3DA5041CC1A36A001BB024 /* GATextFieldDemoUITests */,
+				3A3DA4DB1CC1A369001BB024 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A3DA4DB1CC1A369001BB024 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A3DA4DA1CC1A369001BB024 /* GATextFieldDemo.app */,
+				3A3DA4F61CC1A36A001BB024 /* GATextFieldDemoTests.xctest */,
+				3A3DA5011CC1A36A001BB024 /* GATextFieldDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A3DA4DC1CC1A369001BB024 /* GATextFieldDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3A3DA5131CC1A387001BB024 /* GATextField */,
+				3A3DA4E01CC1A369001BB024 /* AppDelegate.h */,
+				3A3DA4E11CC1A369001BB024 /* AppDelegate.m */,
+				3A3DA51F1CC1A478001BB024 /* Macros.h */,
+				3A3DA4E31CC1A369001BB024 /* ViewController.h */,
+				3A3DA4E41CC1A369001BB024 /* ViewController.m */,
+				3A3DA4E61CC1A369001BB024 /* Main.storyboard */,
+				3A3DA4EC1CC1A369001BB024 /* Assets.xcassets */,
+				3A3DA4EE1CC1A369001BB024 /* LaunchScreen.storyboard */,
+				3A3DA4F11CC1A369001BB024 /* Info.plist */,
+				3A3DA4E91CC1A369001BB024 /* GATextFieldDemo.xcdatamodeld */,
+				3A3DA4DD1CC1A369001BB024 /* Supporting Files */,
+			);
+			path = GATextFieldDemo;
+			sourceTree = "<group>";
+		};
+		3A3DA4DD1CC1A369001BB024 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A3DA4DE1CC1A369001BB024 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3A3DA4F91CC1A36A001BB024 /* GATextFieldDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A3DA4FA1CC1A36A001BB024 /* GATextFieldDemoTests.m */,
+				3A3DA4FC1CC1A36A001BB024 /* Info.plist */,
+			);
+			path = GATextFieldDemoTests;
+			sourceTree = "<group>";
+		};
+		3A3DA5041CC1A36A001BB024 /* GATextFieldDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3A3DA5051CC1A36A001BB024 /* GATextFieldDemoUITests.m */,
+				3A3DA5071CC1A36A001BB024 /* Info.plist */,
+			);
+			path = GATextFieldDemoUITests;
+			sourceTree = "<group>";
+		};
+		3A3DA5131CC1A387001BB024 /* GATextField */ = {
+			isa = PBXGroup;
+			children = (
+				3A3DA5141CC1A3A7001BB024 /* barcolor_image.png */,
+				3A3DA5151CC1A3A7001BB024 /* white_image.png */,
+				3A3DA5161CC1A3A7001BB024 /* deleteImage.png */,
+				3A3DA51A1CC1A3FB001BB024 /* Citydbol.ttf */,
+				3A3DA51C1CC1A407001BB024 /* GATextField.h */,
+				3A3DA51D1CC1A407001BB024 /* GATextField.m */,
+			);
+			name = GATextField;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A3DA4D91CC1A369001BB024 /* GATextFieldDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A3DA50A1CC1A36A001BB024 /* Build configuration list for PBXNativeTarget "GATextFieldDemo" */;
+			buildPhases = (
+				3A3DA4D61CC1A369001BB024 /* Sources */,
+				3A3DA4D71CC1A369001BB024 /* Frameworks */,
+				3A3DA4D81CC1A369001BB024 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GATextFieldDemo;
+			productName = GATextFieldDemo;
+			productReference = 3A3DA4DA1CC1A369001BB024 /* GATextFieldDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A3DA4F51CC1A36A001BB024 /* GATextFieldDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A3DA50D1CC1A36A001BB024 /* Build configuration list for PBXNativeTarget "GATextFieldDemoTests" */;
+			buildPhases = (
+				3A3DA4F21CC1A36A001BB024 /* Sources */,
+				3A3DA4F31CC1A36A001BB024 /* Frameworks */,
+				3A3DA4F41CC1A36A001BB024 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A3DA4F81CC1A36A001BB024 /* PBXTargetDependency */,
+			);
+			name = GATextFieldDemoTests;
+			productName = GATextFieldDemoTests;
+			productReference = 3A3DA4F61CC1A36A001BB024 /* GATextFieldDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3A3DA5001CC1A36A001BB024 /* GATextFieldDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A3DA5101CC1A36A001BB024 /* Build configuration list for PBXNativeTarget "GATextFieldDemoUITests" */;
+			buildPhases = (
+				3A3DA4FD1CC1A36A001BB024 /* Sources */,
+				3A3DA4FE1CC1A36A001BB024 /* Frameworks */,
+				3A3DA4FF1CC1A36A001BB024 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A3DA5031CC1A36A001BB024 /* PBXTargetDependency */,
+			);
+			name = GATextFieldDemoUITests;
+			productName = GATextFieldDemoUITests;
+			productReference = 3A3DA5011CC1A36A001BB024 /* GATextFieldDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A3DA4D21CC1A369001BB024 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = wzzyinqiang;
+				TargetAttributes = {
+					3A3DA4D91CC1A369001BB024 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					3A3DA4F51CC1A36A001BB024 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3A3DA4D91CC1A369001BB024;
+					};
+					3A3DA5001CC1A36A001BB024 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3A3DA4D91CC1A369001BB024;
+					};
+				};
+			};
+			buildConfigurationList = 3A3DA4D51CC1A369001BB024 /* Build configuration list for PBXProject "GATextFieldDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A3DA4D11CC1A369001BB024;
+			productRefGroup = 3A3DA4DB1CC1A369001BB024 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A3DA4D91CC1A369001BB024 /* GATextFieldDemo */,
+				3A3DA4F51CC1A36A001BB024 /* GATextFieldDemoTests */,
+				3A3DA5001CC1A36A001BB024 /* GATextFieldDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A3DA4D81CC1A369001BB024 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A3DA5191CC1A3A7001BB024 /* deleteImage.png in Resources */,
+				3A3DA5181CC1A3A7001BB024 /* white_image.png in Resources */,
+				3A3DA51B1CC1A3FB001BB024 /* Citydbol.ttf in Resources */,
+				3A3DA4F01CC1A369001BB024 /* LaunchScreen.storyboard in Resources */,
+				3A3DA4ED1CC1A369001BB024 /* Assets.xcassets in Resources */,
+				3A3DA4E81CC1A369001BB024 /* Main.storyboard in Resources */,
+				3A3DA5171CC1A3A7001BB024 /* barcolor_image.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A3DA4F41CC1A36A001BB024 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A3DA4FF1CC1A36A001BB024 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A3DA4D61CC1A369001BB024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A3DA4E51CC1A369001BB024 /* ViewController.m in Sources */,
+				3A3DA4E21CC1A369001BB024 /* AppDelegate.m in Sources */,
+				3A3DA51E1CC1A407001BB024 /* GATextField.m in Sources */,
+				3A3DA4EB1CC1A369001BB024 /* GATextFieldDemo.xcdatamodeld in Sources */,
+				3A3DA4DF1CC1A369001BB024 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A3DA4F21CC1A36A001BB024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A3DA4FB1CC1A36A001BB024 /* GATextFieldDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A3DA4FD1CC1A36A001BB024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A3DA5061CC1A36A001BB024 /* GATextFieldDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A3DA4F81CC1A36A001BB024 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A3DA4D91CC1A369001BB024 /* GATextFieldDemo */;
+			targetProxy = 3A3DA4F71CC1A36A001BB024 /* PBXContainerItemProxy */;
+		};
+		3A3DA5031CC1A36A001BB024 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A3DA4D91CC1A369001BB024 /* GATextFieldDemo */;
+			targetProxy = 3A3DA5021CC1A36A001BB024 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A3DA4E61CC1A369001BB024 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A3DA4E71CC1A369001BB024 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3A3DA4EE1CC1A369001BB024 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A3DA4EF1CC1A369001BB024 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A3DA5081CC1A36A001BB024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3A3DA5091CC1A36A001BB024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A3DA50B1CC1A36A001BB024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GATextFieldDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wzzyinqiang.GATextFieldDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3A3DA50C1CC1A36A001BB024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GATextFieldDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wzzyinqiang.GATextFieldDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3A3DA50E1CC1A36A001BB024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GATextFieldDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wzzyinqiang.GATextFieldDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GATextFieldDemo.app/GATextFieldDemo";
+			};
+			name = Debug;
+		};
+		3A3DA50F1CC1A36A001BB024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GATextFieldDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wzzyinqiang.GATextFieldDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GATextFieldDemo.app/GATextFieldDemo";
+			};
+			name = Release;
+		};
+		3A3DA5111CC1A36A001BB024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GATextFieldDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wzzyinqiang.GATextFieldDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GATextFieldDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3A3DA5121CC1A36A001BB024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GATextFieldDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wzzyinqiang.GATextFieldDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GATextFieldDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A3DA4D51CC1A369001BB024 /* Build configuration list for PBXProject "GATextFieldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A3DA5081CC1A36A001BB024 /* Debug */,
+				3A3DA5091CC1A36A001BB024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A3DA50A1CC1A36A001BB024 /* Build configuration list for PBXNativeTarget "GATextFieldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A3DA50B1CC1A36A001BB024 /* Debug */,
+				3A3DA50C1CC1A36A001BB024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3A3DA50D1CC1A36A001BB024 /* Build configuration list for PBXNativeTarget "GATextFieldDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A3DA50E1CC1A36A001BB024 /* Debug */,
+				3A3DA50F1CC1A36A001BB024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3A3DA5101CC1A36A001BB024 /* Build configuration list for PBXNativeTarget "GATextFieldDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A3DA5111CC1A36A001BB024 /* Debug */,
+				3A3DA5121CC1A36A001BB024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3A3DA4E91CC1A369001BB024 /* GATextFieldDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3A3DA4EA1CC1A369001BB024 /* GATextFieldDemo.xcdatamodel */,
+			);
+			currentVersion = 3A3DA4EA1CC1A369001BB024 /* GATextFieldDemo.xcdatamodel */;
+			path = GATextFieldDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3A3DA4D21CC1A369001BB024 /* Project object */;
+}
